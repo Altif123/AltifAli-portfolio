@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-
+import Testimonials from './components/Testimonials';
 
 export default function App() {
   return (
@@ -14,6 +14,7 @@ export default function App() {
       <About />
       <Skills />
       <Projects />
+      <Testimonials />
       <Contact />
     </main>
   );
