@@ -39,7 +39,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-6 pr-10 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -56,10 +56,6 @@ export default function Contact() {
               <a className="text-indigo-400 leading-relaxed">
                 altifali.aa@email.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">123-456-7890</p>
             </div>
           </div>
         </div>
